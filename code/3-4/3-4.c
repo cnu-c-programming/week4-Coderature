@@ -1,7 +1,10 @@
 #include <stdio.h>
 
-void inc(int *x) {
+void inc(int *x)
+{
     if (x == NULL)
+        return;
+
     *x = *x + 1;
     printf("%d\n", *x);
 }

@@ -29,7 +29,7 @@ int main()
     int d[] = {10, 20, 30};
 
     /* 배열 크기 생략 (컴파일러가 자동으로 크기 결정) */
-    for (int = 0; i < (int)(sizeof(d) / sizeof(int)); i++)
+    for (int i = 0; i < (int)(sizeof(d) / sizeof(int)); i++)
         printf("%d ", d[i]);
     printf("\n");
 
